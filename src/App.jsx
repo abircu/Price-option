@@ -1,12 +1,15 @@
 import "./App.css";
+import Daisy_Nav from "./components/DaisyNav/Daisy_Nav";
+import Navbar from "./components/Navbar/Navbar";
+import PriceOption from "./components/PriceOption/PriceOption";
 
 function App() {
   return (
     <>
       <div>
-        <h1 className="text-5xl text-center font-semibold text-sky-600">
-          hello react tailwind
-        </h1>
+        {/* <Daisy_Nav /> */}
+        <Navbar />
+        <PriceOption />
       </div>
     </>
   );
