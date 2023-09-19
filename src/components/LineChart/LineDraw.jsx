@@ -65,7 +65,7 @@ const LineDraw = () => {
 
   return (
     <div className=" bg-amber-200 ">
-      <LineChart width={800} height={400} data={MathMarksData}>
+      <LineChart width={400} height={350} data={MathMarksData}>
         <XAxis dataKey="student" />
         <YAxis />
         {/* <Line dataKey="mathMarks" stroke="red" /> */}

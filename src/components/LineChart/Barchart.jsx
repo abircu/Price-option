@@ -1,4 +1,11 @@
-import { AreaChart, XAxis, YAxis, Area, Tooltip } from "recharts";
+import {
+  AreaChart,
+  XAxis,
+  YAxis,
+  Area,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
 
 const Barchart = () => {
   const MathMarksData = [
@@ -64,9 +71,9 @@ const Barchart = () => {
     },
   ];
   return (
-    <div>
+    <div className="lw-[100%]">
       <AreaChart
-        width={1000}
+        width={400}
         height={350}
         data={MathMarksData}
         margin={{
